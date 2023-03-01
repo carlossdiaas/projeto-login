@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/*TODAS AS MIDIAS*/
+
+/*
+
+Typical Device Breakpoints
+    Peuqenas telas: até 600px;
+    celular: de 600 até 768;
+    tablet: 768 até 992;
+    desktop: 992 até 1200;
+    Grandes telas: +1200px;
+
+*/
+
+@media screen and (min-width:768px) and (max-width:992px){
+    section#login{
+        width: 85vw;
+        height: 400px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    .imgp{
+        border-radius: 30px 0px 0px 30px;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+    #mail{
+        width: 80%;
+        
+    }
+    #email{
+        width: 80%;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    #pass{
+        width: 80%;
+        height: 10%;
+    }
+    #senha{
+        width: 80%;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    .envio{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .esqueci{
+        margin-left: 10%;
+    }
+}
+@media screen and (min-width:992px){
+    section#login{
+        width: 85vw;
+        height: 400px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    .imgp{
+        border-radius: 30px 0px 0px 30px;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+    #mail{
+        width: 80%;
+        
+    }
+    #email{
+        width: 80%;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    #pass{
+        width: 80%;
+        height: 10%;
+    }
+    #senha{
+        width: 80%;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    .envio{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .esqueci{
+        margin-left: 10%;
+    }
+}
+    

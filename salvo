@@ -1,0 +1,17 @@
+<form action="login.php" method="post">
+                        <div id="mail">
+                            <i class="material-symbols-outlined">account_circle</i>
+                            <input type="email" name="email" placeholder=" E-mail" required id="email" maxlength="30">
+                        </div>
+
+                        <div id="pass">
+                            <span class="material-symbols-outlined">lock</span>
+                            <input type="password" name="pass" placeholder=" Senha" required id="senha">
+                        </div>
+                        <div class="envio">
+                             <input type="submit" class="botao">
+                        </div>
+                        <a href="#" class="esqueci">Esqueci minha senha?</a>
+                        
+                        
+                    </form>

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #03262655;
+}
+:root{
+   color:   #032626
+            #F2786D
+            #BF2A2A
+            #8C2323
+            #F24B4B
+            #000000
+            #ffffffff
+}
+section{
+    width: 350px;
+    height: 730px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.422);
+    
+    
+
+    transform: translate(-50%, -50%);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
+}
+#imagem{
+    height: 260px;
+    background-color: #03262600;
+    background-position: center center;
+}
+.imgp{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0px 0px;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.log{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+.msg{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+#mail{
+    padding-top:15px ;  
+    height: 60px;
+    width: 310px;
+    margin: auto;
+    background-color: #0f42428f;
+    border-radius: 15px;
+}
+#email{
+    height: 40px;
+    width: 240px;
+    margin-left: 56px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    
+}
+
+#pass{
+    padding-top:15px ;
+    background-color: #0f42428f;
+    height: 60px;
+    width: 310px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+#senha{
+    height: 40px;
+    width: 240px;
+    margin-left: 56px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+.material-symbols-outlined{
+    position: absolute;
+    font-size: 2.8em;
+    margin-left: 5px;
+}
+ /*<a href="esqueciasenha.html" class="botao1">Esqueci a senha</a> */
+.envio{
+    padding-top:15px ;  
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #7086c2;
+    border-radius: 15px;
+}
+.botao{
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 2px 20px 2px 20px;
+    border-radius: 10px;
+    background-color: #2f6d6d;
+    color: white;
+}
+.botao:hover{
+    background-color: #032626;
+}
+.esqueci{
+    margin-top: 15px;
+    margin-left: 27px
+}
