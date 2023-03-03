@@ -17,8 +17,8 @@ body{
             #ffffffff
 }
 section{
-    width: 70vw;
-    height: 73vh;
+    width: 80vw;
+    height: 80vh;
     background-color: rgb(255, 255, 255);
     position: absolute;
     left: 50%;
