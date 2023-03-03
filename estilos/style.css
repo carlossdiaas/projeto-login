@@ -17,8 +17,8 @@ body{
             #ffffffff
 }
 section{
-    width: 350px;
-    height: 730px;
+    width: 70vw;
+    height: 73vh;
     background-color: rgb(255, 255, 255);
     position: absolute;
     left: 50%;
@@ -62,14 +62,14 @@ section{
 #mail{
     padding-top:15px ;  
     height: 60px;
-    width: 310px;
+    width: 90%;
     margin: auto;
     background-color: #0f42428f;
     border-radius: 15px;
 }
 #email{
     height: 40px;
-    width: 240px;
+    width: 70%;
     margin-left: 56px;
 
     border: 2px solid black;
@@ -82,14 +82,14 @@ section{
     padding-top:15px ;
     background-color: #0f42428f;
     height: 60px;
-    width: 310px;
+    width: 90%;
     margin: auto;
     border-radius: 15px;
     margin-top: 10px;
 }
 #senha{
     height: 40px;
-    width: 240px;
+    width: 70%;
     margin-left: 56px;
 
     border: 2px solid black;
@@ -105,7 +105,7 @@ section{
 .envio{
     padding-top:15px ;  
     height: 50px;
-    width: 300px;
+    width: 80%;
     margin: auto;
     margin-top: 20px;
     background-color: #7086c2;
@@ -125,5 +125,7 @@ section{
 }
 .esqueci{
     margin-top: 15px;
-    margin-left: 27px
+    text-align: right;
+    display: block;
+    margin-right: 34px;
 }
